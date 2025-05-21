@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import EditableSection from "../components/EditableSection";
-import EditableImage from "../components/EditableImage";
+import EditableSection from "./components/EditableSection";
+import EditableImage from "./components/EditableImage";
 
 export default function Home() {
   const [input, setInput] = useState("");
